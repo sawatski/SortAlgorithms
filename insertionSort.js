@@ -9,5 +9,6 @@ const insertionSort = array => {
     }
     array[j] = current;
   }
+  return array;
 };
 module.exports = { insertionSort };
