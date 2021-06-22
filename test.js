@@ -17,7 +17,7 @@ const result1 = [];
 const result2 = [];
 const result3 = [];
 
-const LOOP_COUNT = 1000;
+const LOOP_COUNT = 10000;
 
 const speedTest = (fn, args, count, size) => {
   const name = fn.name;
